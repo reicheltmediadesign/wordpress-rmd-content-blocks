@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rmd/recommendations",
+	"title": "Recommendations",
+	"category": "design",
+	"icon": "products",
+	"description": "Cards with image, title, text and a button to an external offer. Affiliate links are marked automatically.",
+	"keywords": [ "affiliate", "products", "cards" ],
+	"textdomain": "rmd-content-blocks",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": []
+		},
+		"affiliate": {
+			"type": "boolean",
+			"default": true
+		},
+		"notice": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"editorScript": "file:./index.js",
+	"style": "rmd-content-blocks",
+	"editorStyle": "rmd-content-blocks-editor",
+	"render": "file:./render.php"
+}

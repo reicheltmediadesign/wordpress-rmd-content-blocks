@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rmd/parallax-image",
+	"title": "Parallax image",
+	"category": "design",
+	"icon": "cover-image",
+	"description": "A picture between two sections that drifts slower than the page while scrolling, with an optional sentence on top.",
+	"keywords": [ "parallax", "image", "picture" ],
+	"textdomain": "rmd-content-blocks",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"alt": {
+			"type": "string",
+			"default": ""
+		},
+		"height": {
+			"type": "string",
+			"default": "medium"
+		},
+		"shape": {
+			"type": "string",
+			"default": ""
+		},
+		"motion": {
+			"type": "string",
+			"default": "strong"
+		},
+		"text": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true,
+		"align": [ "wide", "full" ]
+	},
+	"editorScript": "file:./index.js",
+	"style": "rmd-content-blocks",
+	"editorStyle": "rmd-content-blocks-editor",
+	"render": "file:./render.php"
+}

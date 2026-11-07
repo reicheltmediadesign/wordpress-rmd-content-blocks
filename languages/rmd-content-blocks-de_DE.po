@@ -1,0 +1,368 @@
+# German translation of RMD Content Blocks (formal "Sie").
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: RMD Content Blocks 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/reicheltmediadesign/wordpress-rmd-content-blocks/issues\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: rmd-content-blocks\n"
+
+msgid "RMD Content Blocks requires PHP %1$s or newer. This site runs PHP %2$s, so the plugin stays inactive."
+msgstr "RMD Content Blocks benötigt PHP %1$s oder neuer. Diese Website läuft mit PHP %2$s, daher bleibt das Plugin inaktiv."
+
+msgid "Post %1$d: %2$s"
+msgstr "Beitrag %1$d: %2$s"
+
+msgid "Surface: %s"
+msgstr "Fläche: %s"
+
+msgid "%d content still uses blocks that RMD Content Blocks replaces."
+msgid_plural "%d contents still use blocks that RMD Content Blocks replaces."
+msgstr[0] "%d Inhalt verwendet noch Blöcke, die RMD Content Blocks ersetzt."
+msgstr[1] "%d Inhalte verwenden noch Blöcke, die RMD Content Blocks ersetzt."
+
+msgid "%d block widget"
+msgid_plural "%d block widgets"
+msgstr[0] "%d Block-Widget"
+msgstr[1] "%d Block-Widgets"
+
+msgid "Content blocks"
+msgstr "Inhaltsblöcke"
+
+msgid "Migrate now"
+msgstr "Jetzt umstellen"
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Sie haben leider keine Berechtigung, auf diese Seite zuzugreifen."
+
+msgid "Migrated %1$d blocks in %2$d posts and %3$d widgets."
+msgstr "%1$d Blöcke in %2$d Beiträgen und %3$d Widgets umgestellt."
+
+msgid "Replaces blocks of the theme with the blocks of RMD Content Blocks. Settings and texts of the blocks are taken over; the look comes from the plugin and the theme afterwards."
+msgstr "Ersetzt Blöcke des Themes durch die Blöcke von RMD Content Blocks. Einstellungen und Texte der Blöcke werden übernommen; das Aussehen kommt danach aus Plugin und Theme."
+
+msgid "Replaced blocks:"
+msgstr "Ersetzte Blöcke:"
+
+msgid "No content uses these blocks any more. Nothing to do."
+msgstr "Kein Inhalt verwendet diese Blöcke mehr. Es ist nichts zu tun."
+
+msgid "Contents with these blocks:"
+msgstr "Inhalte mit diesen Blöcken:"
+
+msgid "Each post is saved once, so its previous version stays available as a revision."
+msgstr "Jeder Beitrag wird einmal gespeichert, die bisherige Fassung bleibt als Revision erhalten."
+
+msgid "Migrate blocks now"
+msgstr "Blöcke jetzt umstellen"
+
+msgid "Straight (full width)"
+msgstr "Gerade (volle Breite)"
+
+msgid "Arch (curved edges, full width)"
+msgstr "Bogen (gewölbte Kanten, volle Breite)"
+
+msgid "Round (inset, rounded corners)"
+msgstr "Rund (eingerückt, runde Ecken)"
+
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+msgid "Advertisement · affiliate link*"
+msgstr "Werbung · Affiliate-Link*"
+
+msgid "* Links marked as affiliate links are commission links. If you buy through such a link, we receive a small commission. The price stays the same for you."
+msgstr "* Die als Affiliate-Link gekennzeichneten Links sind Provisions-Links. Wenn Sie über einen solchen Link kaufen, erhalten wir eine kleine Provision. Am Preis ändert sich für Sie nichts."
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Surface"
+msgstr "Fläche"
+
+msgid "Background"
+msgstr "Hintergrund"
+
+msgid "Full width; the content keeps the content width."
+msgstr "Volle Breite; der Inhalt bleibt auf Inhaltsbreite."
+
+msgid "Colours the section and sets it to full width."
+msgstr "Färbt den Abschnitt und stellt ihn auf volle Breite."
+
+msgid "Section on a coloured surface across the full width."
+msgstr "Abschnitt auf farbiger Fläche in voller Breite."
+
+msgid "— Select page —"
+msgstr "— Seite wählen —"
+
+msgid "(no title)"
+msgstr "(ohne Titel)"
+
+msgid "Entry %d"
+msgstr "Eintrag %d"
+
+msgid "Add entry"
+msgstr "Eintrag hinzufügen"
+
+msgid "Target"
+msgstr "Ziel"
+
+msgid "Page"
+msgstr "Seite"
+
+msgid "External link"
+msgstr "Externer Link"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Anchor"
+msgstr "Anker"
+
+msgid "e.g. dates"
+msgstr "z. B. termine"
+
+msgid "Jumps to this place on the target page (HTML anchor of a block, without #). Leave empty for the top of the page."
+msgstr "Springt zu dieser Stelle der Zielseite (HTML-Anker eines Blocks, ohne #). Leer lassen für den Seitenanfang."
+
+msgid "Label"
+msgstr "Beschriftung"
+
+msgid "Address of the website"
+msgstr "Adresse der Website"
+
+msgid "Label from the menu"
+msgstr "Beschriftung aus dem Menü"
+
+msgid "Leave empty for the default."
+msgstr "Leer lassen für die Vorgabe."
+
+msgid "Replace image"
+msgstr "Bild ändern"
+
+msgid "Select image"
+msgstr "Bild auswählen"
+
+msgid "Override image"
+msgstr "Bild überschreiben"
+
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+msgid "Use featured image"
+msgstr "Beitragsbild verwenden"
+
+msgid "Remove entry"
+msgstr "Eintrag entfernen"
+
+msgid "Entries"
+msgstr "Einträge"
+
+msgid "More than three cards do not fit in one row."
+msgstr "Mehr als drei Karten passen nicht in eine Reihe."
+
+msgid "Page links"
+msgstr "Seitenlinks"
+
+msgctxt "block title"
+msgid "Page links"
+msgstr "Seitenlinks"
+
+msgid "Up to three cards linking to other pages."
+msgstr "Bis zu drei Karten, die auf andere Seiten verlinken."
+
+msgid "Small"
+msgstr "Klein"
+
+msgid "Medium"
+msgstr "Mittel"
+
+msgid "Large"
+msgstr "Groß"
+
+msgid "Soft"
+msgstr "Sanft"
+
+msgid "Strong"
+msgstr "Deutlich"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Alternative text"
+msgstr "Alternativtext"
+
+msgid "Describes the image for screen readers. Leave empty if it is purely decorative."
+msgstr "Beschreibt das Bild für Screenreader. Leer lassen, wenn es rein schmückend ist."
+
+msgid "Appearance"
+msgstr "Darstellung"
+
+msgid "Shape"
+msgstr "Form"
+
+msgid "Height"
+msgstr "Höhe"
+
+msgid "Motion"
+msgstr "Bewegung"
+
+msgid "Parallax image"
+msgstr "Parallax-Bild"
+
+msgctxt "block title"
+msgid "Parallax image"
+msgstr "Parallax-Bild"
+
+msgid "A landscape picture with calm edges works best."
+msgstr "Ein Querformat mit ruhigen Rändern wirkt am besten."
+
+msgid "Sentence on the image (optional) …"
+msgstr "Satz auf dem Bild (optional) …"
+
+msgid "Enter a sentence …"
+msgstr "Satz eingeben …"
+
+msgid "Source (optional)"
+msgstr "Quelle (optional)"
+
+msgid "Card %1$d: %2$s"
+msgstr "Karte %1$d: %2$s"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Button label"
+msgstr "Knopf-Beschriftung"
+
+msgid "Highlight (whole row)"
+msgstr "Hervorheben (ganze Reihe)"
+
+msgid "Move up"
+msgstr "Nach oben"
+
+msgid "Move down"
+msgstr "Nach unten"
+
+msgid "Remove card"
+msgstr "Karte entfernen"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Affiliate links"
+msgstr "Affiliate-Links"
+
+msgid "Marks every card as advertising and adds the notice below the cards. Only switch off if there is no commission."
+msgstr "Kennzeichnet jede Karte als Werbung und ergänzt den Hinweis unter den Karten. Nur ausschalten, wenn es keine Provision gibt."
+
+msgid "Notice below the cards"
+msgstr "Hinweis unter den Karten"
+
+msgid "Leave empty for the default text."
+msgstr "Leer lassen für den Standardtext."
+
+msgid "Add card"
+msgstr "Karte hinzufügen"
+
+msgid "Recommendations"
+msgstr "Empfehlungen"
+
+msgctxt "block title"
+msgid "Recommendations"
+msgstr "Empfehlungen"
+
+msgid "Cards with image, title, text and a button to an external offer."
+msgstr "Karten mit Bild, Titel, Text und Knopf zu einem externen Angebot."
+
+msgctxt "block description"
+msgid "Up to three cards linking to other pages. Image and label come from the target page and can be overridden."
+msgstr "Bis zu drei Karten, die auf andere Seiten verlinken. Bild und Beschriftung kommen von der Zielseite und lassen sich überschreiben."
+
+msgctxt "block keyword"
+msgid "links"
+msgstr "Links"
+
+msgctxt "block keyword"
+msgid "cards"
+msgstr "Karten"
+
+msgctxt "block keyword"
+msgid "teaser"
+msgstr "Teaser"
+
+msgctxt "block description"
+msgid "A picture between two sections that drifts slower than the page while scrolling, with an optional sentence on top."
+msgstr "Ein Bild zwischen zwei Abschnitten, das beim Scrollen langsamer mitläuft, wahlweise mit einem kurzen Satz darauf."
+
+msgid "parallax"
+msgstr "Parallax"
+
+msgctxt "block keyword"
+msgid "parallax"
+msgstr "Parallax"
+
+msgid "image"
+msgstr "Bild"
+
+msgctxt "block keyword"
+msgid "image"
+msgstr "Bild"
+
+msgctxt "block keyword"
+msgid "picture"
+msgstr "Foto"
+
+msgctxt "block title"
+msgid "Quote band"
+msgstr "Zitat-Band"
+
+msgctxt "block description"
+msgid "One sentence in large, light type on a coloured band across the full width."
+msgstr "Ein Satz in großer, leichter Schrift auf einer farbigen Bahn über die volle Breite."
+
+msgctxt "block keyword"
+msgid "quote"
+msgstr "Zitat"
+
+msgctxt "block keyword"
+msgid "claim"
+msgstr "Leitsatz"
+
+msgctxt "block keyword"
+msgid "statement"
+msgstr "Aussage"
+
+msgctxt "block description"
+msgid "Cards with image, title, text and a button to an external offer. Affiliate links are marked automatically."
+msgstr "Karten mit Bild, Titel, Text und Knopf zu einem externen Angebot. Affiliate-Links werden automatisch gekennzeichnet."
+
+msgid "affiliate"
+msgstr "Affiliate"
+
+msgctxt "block keyword"
+msgid "affiliate"
+msgstr "Affiliate"
+
+msgid "products"
+msgstr "Produkte"
+
+msgctxt "block keyword"
+msgid "products"
+msgstr "Produkte"
+
+msgid "RMD Content Blocks"
+msgstr "RMD Content Blocks"
+
+msgid "Content blocks for the block editor: page links, recommendations with affiliate disclosure, parallax image and quote band, plus a surface panel for groups. Themes adapt the look through CSS custom properties."
+msgstr "Inhaltsblöcke für den Block-Editor: Seitenlinks, Empfehlungen mit Affiliate-Kennzeichnung, Parallax-Bild und Zitat-Band, dazu ein Flächen-Panel für Gruppen. Themes passen das Aussehen über CSS-Variablen an."

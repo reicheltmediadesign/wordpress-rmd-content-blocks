@@ -1,0 +1,53 @@
+/**
+ * Editor-only additions. The block styles themselves (blocks.css) are loaded
+ * in the editor as well.
+ */
+
+/* The picture stands still in the editor: no overhang needed. */
+.editor-styles-wrapper .rmd-parallax__img {
+	top: 0;
+	height: 100%;
+}
+
+/* Page links: each card carries the colour of its entry in the sidebar
+   (same colours as ENTRY_COLORS in blocks/page-links/index.js). */
+.rmd-page-links__item[data-entry] {
+	position: relative;
+	--rmd-cb-entry: #2f8a7a;
+}
+
+.rmd-page-links__item[data-entry="2"] {
+	--rmd-cb-entry: #94750f;
+}
+
+.rmd-page-links__item[data-entry="3"] {
+	--rmd-cb-entry: #8a4f7d;
+}
+
+.rmd-page-links__item[data-entry]::before {
+	content: attr(data-entry);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+	min-width: 22px;
+	padding: 2px 7px;
+	border-radius: 11px;
+	background: var(--rmd-cb-entry);
+	color: #fff;
+	font: 600 12px/18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	text-align: center;
+}
+
+/* While the block is selected the card of the open entry is outlined. */
+.rmd-page-links-editor[data-active] .rmd-page-links__item[data-entry] {
+	opacity: 0.6;
+}
+
+.rmd-page-links-editor[data-active="1"] .rmd-page-links__item[data-entry="1"],
+.rmd-page-links-editor[data-active="2"] .rmd-page-links__item[data-entry="2"],
+.rmd-page-links-editor[data-active="3"] .rmd-page-links__item[data-entry="3"] {
+	opacity: 1;
+	outline: 3px solid var(--rmd-cb-entry);
+	outline-offset: 2px;
+}
