@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "rmd/page-links",
+	"title": "Page links",
+	"category": "design",
+	"icon": "admin-links",
+	"description": "Up to three cards linking to other pages. Image and label come from the target page and can be overridden.",
+	"keywords": [ "links", "cards", "teaser" ],
+	"textdomain": "rmd-content-blocks",
+	"attributes": {
+		"items": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"editorScript": "file:./index.js",
+	"style": "rmd-content-blocks",
+	"editorStyle": "rmd-content-blocks-editor",
+	"render": "file:./render.php"
+}
